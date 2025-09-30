@@ -2,7 +2,7 @@
 
 **Autor:** Kimon A. Arvanitis  
 **Studium:** M.A. Politikwissenschaften  
-**Universität:** UZH 
+**Universität:** UZH  
 **Jahr:** 2021
 
 Dieses Repository enthält den R-Code, die Dokumentation und das PDF der Masterarbeit *„Nostalgic Deprivation, (Future) Opportunities, Social Mobility & Far-Right Support“*.  
@@ -11,7 +11,7 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
 ---
 
 ## Abstract
-*(hier in 5–8 Sätzen deine Zusammenfassung einsetzen – Fragestellung, Daten, Methode, zentrale Ergebnisse)*
+Diese Arbeit untersucht den Zusammenhang zwischen Nostalgie, Zukunftserwartungen und intergenerationaler sozialer Mobilität mit der Unterstützung rechtspopulistischer Parteien in Europa. Auf Grundlage des ERC-Datensatzes werden logistische Regressionsmodelle sowie Matching-Analysen durchgeführt. Die Ergebnisse zeigen, dass eine erhöhte nostalgische Deprivation signifikant mit einer stärkeren Wahlabsicht und Wahlentscheidung für rechtspopulistische Parteien verbunden ist. Gleichzeitig wirken sich positive Zukunftschancen sowie wahrgenommene soziale Aufstiegsmöglichkeiten dämpfend auf die Unterstützung aus. Durch die Kombination dieser Dimensionen in Quadranten-Analysen wird deutlich, dass insbesondere Personen mit stark nostalgischer Orientierung und pessimistischen Zukunftserwartungen zur Unterstützung rechter Parteien neigen. Die Befunde tragen zum Verständnis bei, wie subjektive Wahrnehmungen von Vergangenheit und Zukunft politische Präferenzen in Europa beeinflussen.
 
 ---
 
@@ -54,5 +54,10 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
   [`MA_Kimon_A_Arvanitis_working_paper.pdf`](docs/MA_Kimon_A_Arvanitis_working_paper.pdf)  
 
 ---
+
+## Lizenz
+Dieses Repository dient der Dokumentation einer Masterarbeit.  
+Der Code ist ein Replikationspaket und nicht für die Weiterverwendung lizenziert.  
+Die Daten (`ERC.dta`) sind nicht Open Source.
 
 ---
