@@ -682,7 +682,7 @@ erc$quadrant2_cluster[erc$Q3==1]<-"3rd Quadrant"
 erc$quadrant2_cluster[erc$Q4==1]<-"4th Quadrant"
 table(erc$quadrant2_cluster)
 
-plot4.1 <- ggplot(erc, aes(x=quadrant1))+geom_bar(stat = "count", fill='#999999')+ 
+plot4.1 <- ggplot(erc, aes(x=quadrant2))+geom_bar(stat = "count", fill='#999999')+ 
   theme_bw()+
   theme(plot.margin = margin(t = 0.1, r = 0.1, b = 0.1, l = -0.4, unit = "cm"))+
   theme(axis.text.x = element_text(size = 10), 
@@ -1030,7 +1030,7 @@ Quadrant_job_sector <- as.data.frame(Test3)
 #Save as excel to reshape the data
 library(openxlsx)
 
-#write.xlsx(Quadrant_job_sector, 'Quadrant_job_sector.xlsx')
+write.xlsx(Quadrant_job_sector, 'Quadrant_job_sector.xlsx')
 #Read xcel into R
 
 Quadrant_job_sector <- read.xlsx('Quadrant_job_sector.xlsx')
@@ -2155,5 +2155,6 @@ t.test(data_g_int$FR_int[data_g_int$socmob_treat==1],data_g_int$FR_int[data_g_in
 
 #Estimating treatment effects
 with(data_g_int, t.test(FR_int ~ socmob_treat))
+
 
 detach(erc_MA_int)
