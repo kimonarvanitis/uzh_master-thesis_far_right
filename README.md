@@ -10,12 +10,12 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
 
 ---
 
-## 📌 Abstract
+## Abstract
 *(hier in 5–8 Sätzen deine Zusammenfassung einsetzen – Fragestellung, Daten, Methode, zentrale Ergebnisse)*
 
 ---
 
-## 🛠️ Technologien & Methoden
+## Technologien & Methoden
 - **Sprache:** R  
 - **Pakete:** tidyverse, ggplot2, MatchIt, lme4, sjPlot, stargazer, u.v.m.  
 - **Methoden:**  
@@ -26,11 +26,14 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
 
 ---
 
-## 📂 Projektstruktur
-
+## Projektstruktur
+├── data/ # Dummy-Daten -> Rohdaten sind nicht Open Source
+├── r/ # R-Skripte zur Reproduktion der Analysen
+├── docs/ # Masterarbeit (PDF)
+└── README.md # Diese Datei
 ---
 
-## ▶️ Reproduktion
+## Reproduktion
 1. Lege die benötigten Daten (`ERC.dta`) im Ordner `data/` ab.  
 2. Öffne das R-Skript im Ordner `r/` in RStudio.  
 3. Stelle sicher, dass die im Skript verwendeten R-Pakete installiert sind.  
@@ -38,7 +41,7 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
 
 ---
 
-## 📊 Outputs
+## Outputs
 - Regressionsmodelle (Logit)  
 - Visualisierungen (PDF)  
 - Tabellen (LaTeX/Excel)  
@@ -46,14 +49,10 @@ Die Arbeit untersucht, wie Nostalgie, Zukunftschancen und soziale Mobilität mit
 
 ---
 
-## 📑 Dokumentation
+## Dokumentation
 - Die vollständige Masterarbeit ist im Ordner `docs/` abgelegt:  
   [`MA_Kimon_A_Arvanitis_working_paper.pdf`](docs/MA_Kimon_A_Arvanitis_working_paper.pdf)  
 
 ---
-
-## 📜 Lizenz
-Die R-Skripte stehen unter [MIT-Lizenz](https://opensource.org/licenses/MIT) (falls nicht anders gewünscht).  
-Die Nutzung des Datensatzes `ERC.dta` unterliegt den jeweiligen Lizenzbestimmungen.  
 
 ---
